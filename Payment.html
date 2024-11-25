@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Page</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: #333;
+        font-size: 36px;
+        text-align: center;
+        padding: 20px;
+      }
+      p {
+        color: #666;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+      }
+      #qrScanner {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #999;
+      }
+      h2 {
+        color: #333;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px;
+      }
+      button {
+        background-color: #800080;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #999;
+      }
+      button:hover {
+        background-color: #800080;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Make a Payment</h1>
+    <p>Use the QR scanner below to scan a code and make a payment.</p>
+    <style>
+      /* Set the display property of the img element to block */
+      img {
+        display: block;
+        /* Center the image horizontally using the margin property */
+        margin: 0 auto;
+        /* Set the width and height of the image */
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+    <div id="qrCode">
+      <img src="C:\Users\hp\Desktop\project\QR CODE.jpeg" alt="QR Code" />
+    </div>
+    <h2>Or choose a payment method:</h2>
+    
+    <a href="paymentinfo.html"><button>Pay with Credit Card</button></a>
+    <button>Pay with PayPal</button>
+    <button>Pay with Google Pay</button>
+    <button>Pay with Apple Pay</button>
+    <button>Pay with Phone Pay</button>
+    <script>
+      // Add your JavaScript code here to implement the QR scanner functionality
+    </script>
+  </body>
+</html>
